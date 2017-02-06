@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Favicons generated with: http://realfavicongenerator.net/ -->
+        <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon-180x180.png">
+        <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="favicons/android-chrome-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="favicons/manifest.json">
+        <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#f1f1f1">
+        <meta name="msapplication-TileImage" content="favicons/mstile-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <title>RealPortfolio - Portfolio for real people</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/typebase.css">
+        <link rel="stylesheet" href="cubeportfolio/css/cubeportfolio.css">
+        <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+    <div class="home-header-wrapper target">
+        <a href="index.html" class="logo viewport_animate animate_now" data-animation="fadeInUp" data-duration="animated12"><img src="images/rp-logo-3.svg"></a>
+        <a href="#animatedModal" id="demo01" class="btn btn-link btn-lg btn-menu"><span class="lnr lnr-menu"></span></a>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-offset-2 col-md-8 center home-header-container">
+                    <div class="h4 small-title add-separator reset-margin clearfix viewport_animate animate_now" data-animation="fadeInUp" data-duration="animated12">welcome</div>
+                    <h1 class="home-title">I am <span id="typed"></span></h1>
+                    <p class="lead home-header-lead">I can do <a href="#portfolio-wrapper" class="scroll"><em>awesome things</em></a> for your company. <br class="hidden-xs">Do not hesitate to <a href="contact.html"><em>contact me</em></a>.</p>
+                </div>
+            </div>
+        </div>
+        <div class="home-header-wrapper-bg"></div>
+        <a href="#portfolio-wrapper" class="mouse-scroll scroll"> 
+            <span class="mouse">
+                <span class="mouse-movement"> 
+                </span>
+            </span>
+        </a>
+    </div>
+    
+    <div id="portfolio-wrapper">
+        <div class="custom-filter-wrapper" id="fixed-nav">
+            <div class="custom-filter-title-wrapper text-center">
+                <div class="h4 small-title add-separator reset-margin clearfix">Portfolio</div>
+                <div class="custom-filter-btn-wrapper">
+                    <a id="nav-toggle" class="btn btn-link" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><span></span></a>
+                </div>
+            </div>
+            <div class="collapse" id="collapseExample">
+                <div id="js-filters-full-width" class="cbp-l-filters-alignCenter">
+                    <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
+                        All <div class="cbp-filter-counter"></div>
+                    </div>
+                    <div data-filter=".identity" class="cbp-filter-item">
+                        Identity <div class="cbp-filter-counter"></div>
+                    </div>
+                    <div data-filter=".web-design" class="cbp-filter-item">
+                        Web Design <div class="cbp-filter-counter"></div>
+                    </div>
+                    <div data-filter=".graphic" class="cbp-filter-item">
+                        Graphic <div class="cbp-filter-counter"></div>
+                    </div>
+                    <div data-filter=".logos" class="cbp-filter-item">
+                        Logo <div class="cbp-filter-counter"></div>
+                    </div>
+                    <div data-filter=".motion" class="cbp-filter-item">
+                        Motion <div class="cbp-filter-counter"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="js-grid-full-width" class="cbp">
+            <div class="cbp-item identity logos">
+                <a href="case-studies/project1.html" class="cbp-singlePage cbp-caption" rel="nofollow">
+                    <span class="portfolio-label-wrapper">
+                        <span class="portfolio-label-icon lnr lnr-arrow-left"></span>
+                        <span class="portfolio-label-text">Case Study</span>
+                    </span>
+                    <div class="cbp-caption-defaultWrap">
+                        <img src="images/portfolio-set-1/19.jpg" alt="">
+                    </div>
+                    <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                            <div class="cbp-l-caption-body">
+                                <div class="h3 reset-margin">I'm Case Study</div>
+                                <p class="reset-margin"><em class="small">for</em> Company Name</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="cbp-item identity logos">
+                <a href="images/portfolio-set-1/02.jpg" class="cbp-caption cbp-lightbox" data-title="Skateshop Website<br>by Paul Flavius Nechita">
+                    <div class="cbp-caption-defaultWrap">
+                        <img src="images/portfolio-set-1/02.jpg" alt="">
+                    </div>
+                    <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                            <div class="cbp-l-caption-body">
+                                <div class="h3 reset-margin">Porfolio Work</div>
+                                <p class="reset-margin"><em class="small">for</em> Company Name</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="cbp-item motion identity">
+                <a href="images/portfolio-set-1/01.jpg" class="cbp-caption cbp-lightbox" data-title="Skateshop Website<br>by Paul Flavius Nechita">
+                    <div class="cbp-caption-defaultWrap">
+                        <img src="images/portfolio-set-1/01.jpg" alt="">
+                    </div>
+                    <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                            <div class="cbp-l-caption-body">
+                                <div class="h3 reset-margin">Porfolio Work</div>
+                                <p class="reset-margin"><em class="small">for</em> Company Name</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="cbp-item identity graphic">
+                <a href="images/portfolio-set-1/04.jpg" class="cbp-caption cbp-lightbox" data-title="Skateshop Website<br>by Paul Flavius Nechita">
+                    <div class="cbp-caption-defaultWrap">
+                        <img src="images/portfolio-set-1/04.jpg" alt="">
+                    </div>
+                    <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                            <div class="cbp-l-caption-body">
+                                <div class="h3 reset-margin">Awesome Work</div>
+                                <p class="reset-margin"><em class="small">for</em> Company Name</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="cbp-item motion logos">
+                <a href="case-studies/project2.html" class="cbp-singlePage cbp-caption" rel="nofollow">
+                    <span class="portfolio-label-wrapper">
+                        <span class="portfolio-label-icon lnr lnr-arrow-left"></span>
+                        <span class="portfolio-label-text">Case Study</span>
+                    </span>
+                    <div class="cbp-caption-defaultWrap">
+                        <img src="images/portfolio-set-1/05.jpg" alt="">
+                    </div>
+                    <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                            <div class="cbp-l-caption-body">
+                                <div class="h3 reset-margin">I'm Case Study</div>
+                                <p class="reset-margin"><em class="small">for</em> Company Name</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="cbp-item web-design">
+                <a href="images/portfolio-set-1/06.jpg" class="cbp-caption cbp-lightbox" data-title="10 Navigation Bars<br>by Paul Flavius Nechita">
+                    <div class="cbp-caption-defaultWrap">
+                        <img src="images/portfolio-set-1/06.jpg" alt="">
+                    </div>
+                    <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                            <div class="cbp-l-caption-body">
+                                <div class="h3 reset-margin">Awesome Work</div>
+                                <p class="reset-margin"><em class="small">for</em> Company Name</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="cbp-item identity motion">
+                <a href="images/portfolio-set-1/07.jpg" class="cbp-caption cbp-lightbox" data-title="To-Do Dashboard<br>by Tiberiu Neamu">
+                    <div class="cbp-caption-defaultWrap">
+                        <img src="images/portfolio-set-1/07.jpg" alt="">
+                    </div>
+                    <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                            <div class="cbp-l-caption-body">
+                                <div class="h3 reset-margin">Porfolio Work</div>
+                                <p class="reset-margin"><em class="small">for</em> Company Name</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="cbp-item web-design graphic">
+                <a href="images/portfolio-set-1/08.jpg" class="cbp-caption cbp-lightbox" data-title="Events and  More<br>by Tiberiu Neamu">
+                    <div class="cbp-caption-defaultWrap">
+                        <img src="images/portfolio-set-1/08.jpg" alt="">
+                    </div>
+                    <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                            <div class="cbp-l-caption-body">
+                                <div class="h3 reset-margin">Awesome Work</div>
+                                <p class="reset-margin"><em class="small">for</em> Company Name</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="cbp-item graphic logos">
+                <a href="case-studies/project3.html" class="cbp-singlePage cbp-caption" rel="nofollow">
+                    <span class="portfolio-label-wrapper">
+                        <span class="portfolio-label-icon lnr lnr-arrow-left"></span>
+                        <span class="portfolio-label-text">Case Study</span>
+                    </span>
+                    <div class="cbp-caption-defaultWrap">
+                        <img src="images/portfolio-set-1/09.jpg" alt="">
+                    </div>
+                    <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                            <div class="cbp-l-caption-body">
+                                <div class="h3 reset-margin">I'm Case Study</div>
+                                <p class="reset-margin"><em class="small">for</em> Company Name</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="cbp-item graphic motion">
+                <a href="images/portfolio-set-1/10.jpg" class="cbp-caption cbp-lightbox" data-title="Bolt UI<br>by Tiberiu Neamu">
+                    <div class="cbp-caption-defaultWrap">
+                        <img src="images/portfolio-set-1/10.jpg" alt="">
+                    </div>
+                    <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                            <div class="cbp-l-caption-body">
+                                <div class="h3 reset-margin">Awesome Work</div>
+                                <p class="reset-margin"><em class="small">for</em> Company Name</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="cbp-item graphic">
+                <a href="images/portfolio-set-1/11.jpg" class="cbp-caption cbp-lightbox" data-title="iDevices<br>by Tiberiu Neamu">
+                    <div class="cbp-caption-defaultWrap">
+                        <img src="images/portfolio-set-1/11.jpg" alt="">
+                    </div>
+                    <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                            <div class="cbp-l-caption-body">
+                                <div class="h3 reset-margin">Porfolio Work</div>
+                                <p class="reset-margin"><em class="small">for</em> Company Name</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="cbp-item graphic logos">
+                <a href="case-studies/project4.html" class="cbp-singlePage cbp-caption" rel="nofollow">
+                    <span class="portfolio-label-wrapper">
+                        <span class="portfolio-label-icon lnr lnr-arrow-left"></span>
+                        <span class="portfolio-label-text">Case Study</span>
+                    </span>
+                    <div class="cbp-caption-defaultWrap">
+                        <img src="images/portfolio-set-1/12.jpg" alt="">
+                    </div>
+                    <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                            <div class="cbp-l-caption-body">
+                                <div class="h3 reset-margin">I'm Case Study</div>
+                                <p class="reset-margin"><em class="small">for</em> Company Name</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="cbp-item graphic logos">
+                <a href="images/portfolio-set-1/13.jpg" class="cbp-caption cbp-lightbox" data-title="Seemple* Music for iPad<br>by Tiberiu Neamu">
+                    <div class="cbp-caption-defaultWrap">
+                        <img src="images/portfolio-set-1/13.jpg" alt="">
+                    </div>
+                    <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                            <div class="cbp-l-caption-body">
+                                <div class="h3 reset-margin">Porfolio Work</div>
+                                <p class="reset-margin"><em class="small">for</em> Company Name</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="cbp-item graphic logos">
+                <a href="case-studies/project5.html" class="cbp-singlePage cbp-caption" rel="nofollow">
+                    <span class="portfolio-label-wrapper">
+                        <span class="portfolio-label-icon lnr lnr-arrow-left"></span>
+                        <span class="portfolio-label-text">Case Study</span>
+                    </span>
+                    <div class="cbp-caption-defaultWrap">
+                        <img src="images/portfolio-set-1/14.jpg" alt="">
+                    </div>
+                    <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                            <div class="cbp-l-caption-body">
+                                <div class="h3 reset-margin">I'm Case Study</div>
+                                <p class="reset-margin"><em class="small">for</em> Company Name</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="cbp-item graphic logos">
+                <a href="images/portfolio-set-1/15.jpg" class="cbp-caption cbp-lightbox" data-title="Drag 2 Upload ~ Widget<br>by Tiberiu Neamu">
+                    <div class="cbp-caption-defaultWrap">
+                        <img src="images/portfolio-set-1/15.jpg" alt="">
+                    </div>
+                    <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                            <div class="cbp-l-caption-body">
+                                <div class="h3 reset-margin">Awesome Work</div>
+                                <p class="reset-margin"><em class="small">for</em> Company Name</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="cbp-item graphic logos">
+                <a href="images/portfolio-set-1/20.jpg" class="cbp-caption cbp-lightbox" data-title="Drag 2 Upload ~ Widget<br>by Tiberiu Neamu">
+                    <div class="cbp-caption-defaultWrap">
+                        <img src="images/portfolio-set-1/20.jpg" alt="">
+                    </div>
+                    <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                            <div class="cbp-l-caption-body">
+                                <div class="h3 reset-margin">Awesome Work</div>
+                                <p class="reset-margin"><em class="small">for</em> Company Name</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="js-loadMore-full-width" class="cbp-l-loadMore-text">
+            <a href="case-studies/loadMore.html" class="cbp-l-loadMore-link btn btn-link" rel="nofollow">
+                <span class="cbp-l-loadMore-defaultText">Load more</span>
+                <span class="cbp-l-loadMore-loadingText">Loading...</span>
+                <span class="cbp-l-loadMore-noMoreLoading">Yap! That's all for now!</span>
+            </a>
+        </div>
+    </div>
+
+    <footer class="target">
+        <div class="container">
+            <div class="row center target">
+                <div class="col-md-4 center">
+                    <div class="footer-social">
+                        <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Google+</a>
+                    </div>
+                </div>
+                <div class="col-md-4 center">
+                    <div class="footer-logo text-center">
+                        <img src="images/logo-footer.svg">
+                    </div>
+                </div>
+                <div class="col-md-4 center">
+                    <div class="footer-copy text-right">
+                        &copy; RealPortfolio 2016. All Rights Reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <div id="animatedModal" class="target">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+        <a href="#" class="btn btn-link btn-lg btn-menu close-animatedModal"><span class="lnr lnr-cross"></span></a>
+        <div class="modal-content">
+            <ul class="center text-center list-unstyled modal-menu">
+                <li><a href="index.html" class="h2 active">Work</a></li>
+                <li><a href="about.html" class="h2">About</a></li>
+                <li><a href="contact.html" class="h2">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+        $(document).ready(function() {
+	
+            $("body").css("display", "none");
+
+            $("body").fadeIn(2000);
+
+            $("a.transition").click(function(event){
+                event.preventDefault();
+                linkLocation = this.href;
+                $("body").fadeOut(1000, redirectPage);		
+            });
+
+            function redirectPage() {
+                window.location = linkLocation;
+            }
+
+        });
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/waypoints-custom.js"></script>
+    <script src="cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+    <script>
+        (function($, window, document, undefined) {
+            'use strict';
+
+            // init cubeportfolio
+            $('#js-grid-full-width').cubeportfolio({
+                filters: '#js-filters-full-width',
+                loadMore: '#js-loadMore-full-width',
+                loadMoreAction: 'click',
+                layoutMode: 'grid',
+                sortToPreventGaps: true,
+                defaultFilter: '*',
+                animationType: 'slideDelay',
+                gapHorizontal: 20,
+                gapVertical: 20,
+                gridAdjustment: 'responsive',
+                mediaQueries: [{
+                    width: 1500,
+                    cols: 5
+                }, {
+                    width: 1100,
+                    cols: 4
+                }, {
+                    width: 800,
+                    cols: 3
+                }, {
+                    width: 480,
+                    cols: 2
+                }, {
+                    width: 320,
+                    cols: 2
+                }],
+                caption: 'zoom',
+                displayType: 'bottomToTop',
+                displayTypeSpeed: 80,
+
+                // lightbox
+                lightboxDelegate: '.cbp-lightbox',
+                lightboxGallery: true,
+                lightboxTitleSrc: 'data-title',
+                lightboxCounter: '<div class="cbp-popup-lightbox-counter">{{current}} of {{total}}</div>',
+                
+                // singlePage popup
+                singlePageDelegate: '.cbp-singlePage',
+                singlePageDeeplinking: true,
+                singlePageStickyNavigation: true,
+                singlePageAnimation: 'left',
+                singlePageCounter: '<div class="cbp-popup-singlePage-counter">{{current}} of {{total}}</div>',
+                singlePageCallback: function(url, element) {
+                    // to update singlePage content use the following method: this.updateSinglePage(yourContent)
+                    var t = this;
+
+                    $.ajax({
+                            url: url,
+                            type: 'GET',
+                            dataType: 'html',
+                            timeout: 10000
+                        })
+                        .done(function(result) {
+                            t.updateSinglePage(result);
+                        })
+                        .fail(function() {
+                            t.updateSinglePage('AJAX Error! Please refresh the page!');
+                        });
+                },
+            });
+        })(jQuery, window, document);
+    </script>
+    <script src="js/typed.js"></script>
+    <script>
+        $("#typed").typed({
+            strings: ["a graphic des", "a UX", "des", "John Doe"],
+            typeSpeed: 80,
+            startDelay: 2000,
+            callback: function(){
+                typedAfter();
+            }
+        });
+        function typedAfter(){
+            $(".home-header-lead").addClass("home-header-lead-active"),
+            $(".typed-cursor").addClass("typed-cursor-hide");
+        }
+    </script>
+    <script src="js/jquery-verticalcentering-plugin.js"></script>
+    <script type="text/javascript">
+        $(function(){
+         $('.center').each(function(){
+          $(this).verticalCentering($(this).parents('.target'));
+         });
+        });
+    </script>
+    <script>
+        $(window).scroll(function(){
+            $(".home-header-wrapper-bg, .home-header-container, .mouse-scroll").css("opacity", 1 - $(window).scrollTop() / 300);
+          });
+    </script>
+    <script>
+        $(window).scroll(function(){
+            $(".home-header-container").css("opacity", 1 - $(window).scrollTop() / 500);
+          });
+    </script>
+    <script>
+        $(document).ready(function(){       
+            var scroll_pos = 0;
+            $(document).scroll(function() { 
+                scroll_pos = $(this).scrollTop();
+                if(scroll_pos > 300) {
+                    $(".home-header-wrapper").css('background-color', '#fafafa');
+                } else {
+                    $(".home-header-wrapper").css('background-color', '#fff');
+                }
+            });
+        });
+    </script>
+    <script>
+        var x;
+        $(window).on('scroll', function() {
+            x = $(window).scrollTop();
+            $('.home-header-wrapper-bg').css('background-size', 100 + parseInt(x / 1, 0) + '% ');
+        });
+    </script>
+    <script src="js/animatedModal.min.js"></script>
+    <script>
+        //demo 01
+        $("#demo01").animatedModal({
+            animatedIn:'fadeInUp',
+            animatedOut:'bounceOutDown',
+            color:'#fff'
+        });
+    </script>
+    <script>
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){		
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top}, 900);
+            });
+        });
+    </script>
+    <script>
+        document.querySelector( "#nav-toggle" )
+            .addEventListener( "click", function() {
+            this.classList.toggle( "active" );
+        });
+    </script>
+    <script src="js/sticky-kit.js"></script>
+    <script>
+        $("#fixed-nav").stick_in_parent();
+    </script>
+</body>
+
+</html>
